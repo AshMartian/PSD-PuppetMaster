@@ -1,0 +1,6 @@
+#!bin/bash
+
+killall -q chromium
+chromium-browser --temp-profile --start-maximized http://my.psd401.net
+
+exit 0

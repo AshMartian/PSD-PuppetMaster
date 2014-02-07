@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=0.9.4
+Type=Application
+Name=VNC
+Comment=VNC remote desktop
+Exec=x11vnc -forever -usepw -httpport 5900
+StartupNotify=false
+Terminal=false
+Hidden=false

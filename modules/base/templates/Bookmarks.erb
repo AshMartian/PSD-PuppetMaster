@@ -1,0 +1,36 @@
+{
+   "checksum": "c6d577d001b4393f3223a6b11ae0a200",
+   "roots": {
+      "bookmark_bar": {
+         "children": [<% @bookmarks.each_with_index do |bookmark, i| -%>{
+		 "date_added": "13026853917756602",
+            	 "id": "<%= (i + 5) %>",
+            	 "name": "<%= bookmark['name'] %>",
+            	 "type": "url",
+            	 "url": "<%= bookmark['url'] %>"
+       	}<%= ',' if i < (bookmarks.size - 1) %><% end -%>],
+         "date_added": "13026853846447033",
+         "date_modified": "13026854162243970",
+         "id": "1",
+         "name": "Bookmarks Bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13026853846447039",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other Bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13026853846447040",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile Bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

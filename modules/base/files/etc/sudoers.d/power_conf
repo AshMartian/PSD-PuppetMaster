@@ -1,0 +1,2 @@
+psd ALL=(ALL) NOPASSWD: /sbin/shutdown
+psd ALL=(ALL) NOPASSWD: /sbin/reboot 
